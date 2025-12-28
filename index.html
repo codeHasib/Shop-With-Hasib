@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart | GreeCir </title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="heading">
+            <h2 class="logo">CoDeHaSiB</h2>
+        </div>
+        <div class="searchBox">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" class="searchInput" placeholder="Search Your Item">
+        </div>
+        <div class="cart">
+            <i class="fa-solid fa-cart-arrow-down" id="cartIcon"></i>
+            <span class="cartCount">0</span>
+        </div>
+    </header>
+    <div class="content">
+    </div>
+
+    <!-- Cart Box -->
+    <div class="cartSidebar">
+        <button class="cartBack">Back</button>
+        <h2>Your Cart</h2>
+        <div class="cartItems">
+
+        </div>
+        <div class="cartFooter">
+            <p class="cartTotal">Total: $<span id="cartTotal">0</span></p>
+            <button class="checkoutBtn">Checkout</button>
+            <button class="clearBtn">Clear All</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
